@@ -1,0 +1,64 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Asif Raza computational chemistry dashboard hero</title>
+  <desc id="desc">Animated dark violet and cyan hero showing chemistry, computation, and scientific software themes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#09070f"/>
+      <stop offset="60%" stop-color="#171129"/>
+      <stop offset="100%" stop-color="#071a1f"/>
+    </linearGradient>
+    <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="420" fill="url(#bg)" rx="24"/>
+  <g opacity="0.3">
+    <circle cx="170" cy="90" r="120" fill="#7c3aed">
+      <animate attributeName="r" values="110;125;110" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1160" cy="330" r="160" fill="#0891b2">
+      <animate attributeName="r" values="150;168;150" dur="9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g stroke="url(#pulse)" stroke-width="2" fill="none" opacity="0.75">
+    <path d="M60 320 H310 L340 225 L380 360 L430 180 L480 320 H760" filter="url(#glow)">
+      <animate attributeName="stroke-dasharray" values="0,800;260,540;0,800" dur="6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M830 120 C920 40 1090 70 1180 150" stroke="#22d3ee" opacity="0.65"/>
+    <circle cx="930" cy="96" r="8" fill="#22d3ee">
+      <animate attributeName="cx" values="830;1180;830" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="120;150;120" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif" fill="#e2e8f0">
+    <text x="80" y="120" font-size="24" opacity="0.85">ASIF RAZA · COMPUTATIONAL CHEMISTRY</text>
+    <text x="80" y="185" font-size="54" font-weight="700" fill="#f8fafc">Chemistry × Computation</text>
+    <text x="80" y="245" font-size="54" font-weight="700" fill="#a5f3fc">× Scientific Software</text>
+    <text x="80" y="300" font-size="24" opacity="0.9">CQDs · DFT · Spectroscopy · Catalysis · Reproducible Workflows</text>
+  </g>
+
+  <g transform="translate(910 205)">
+    <circle r="74" fill="none" stroke="#22d3ee" stroke-opacity="0.5"/>
+    <circle r="48" fill="none" stroke="#a78bfa" stroke-opacity="0.7"/>
+    <circle r="6" fill="#e2e8f0"/>
+    <g fill="#67e8f9">
+      <circle cx="74" cy="0" r="5">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="-48" r="4">
+        <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+</svg>
