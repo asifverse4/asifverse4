@@ -1,191 +1,196 @@
+
 <div align="center">
-  <a href="https://github.com/asifverse4">
-    <img src="./assets/hero.svg" width="100%" alt="Asif Raza computational chemistry animated hero" />
-  </a>
 
-  <br/>
+<img src="./assets/hero.svg" width="100%" alt="Asif Raza — computational chemistry and scientific software" />
 
-  <a href="https://github.com/asifverse4?tab=repositories"><img src="https://img.shields.io/badge/OPEN%20SOURCE-18181B?style=for-the-badge&logo=github&logoColor=white" alt="Open source badge" /></a>
-  <a href="https://orcid.org/0009-0000-3850-4907"><img src="https://img.shields.io/badge/ORCID-18181B?style=for-the-badge&logo=orcid&logoColor=A6CE39" alt="ORCID badge" /></a>
-  <a href="https://www.linkedin.com/in/asif-razaa-543b663b4/"><img src="https://img.shields.io/badge/LINKEDIN-18181B?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn badge" /></a>
-  <a href="https://komarev.com/ghpvc/?username=asifverse4"><img src="https://komarev.com/ghpvc/?username=asifverse4&label=PROFILE%20VIEWS&color=7c4dff&style=for-the-badge" alt="Profile views" /></a>
+<p>
+  <a href="https://github.com/asifverse4?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-12212B?style=flat-square&logo=github&logoColor=E6F1F5" alt="Repositories" /></a>
+  <a href="https://orcid.org/0009-0000-3850-4907"><img src="https://img.shields.io/badge/ORCID-0009--0000--3850--4907-173F35?style=flat-square&logo=orcid&logoColor=A6CE39" alt="ORCID" /></a>
+  <a href="https://www.linkedin.com/in/asif-razaa-543b663b4/"><img src="https://img.shields.io/badge/LINKEDIN-ASIF%20RAZA-17324A?style=flat-square&logo=linkedin&logoColor=9CC8E8" alt="LinkedIn" /></a>
+</p>
 
-  <h3><code>chemistry → computation → software → discovery</code></h3>
-  <p><strong>Asif Raza</strong> · M.Sc. Chemistry @ Jamia Millia Islamia · CQDs · DFT · Spectroscopy · Catalysis · Scientific Software</p>
+<p><code>CHEMISTRY → COMPUTATION → SCIENTIFIC SOFTWARE</code></p>
+
+<p><strong>Asif Raza</strong> · M.Sc. Chemistry · Jamia Millia Islamia</p>
+
+<p><em>Computational chemistry · Molecular modelling · Spectral analysis · Research software</em></p>
+
 </div>
 
 ---
 
-## 🧭 Navigation
+## Navigation
 
-<p align="center">
-  <a href="#-research-dashboard">Research Dashboard</a> •
-  <a href="#-workflow-map">Workflow Map</a> •
-  <a href="#-featured-work">Featured Work</a> •
-  <a href="#-toolchain">Toolchain</a> •
-  <a href="#-roadmap">Roadmap</a> •
-  <a href="#-contribution-signal">Contribution Signal</a> •
-  <a href="#-connect">Connect</a>
-</p>
+[Research profile](#research-profile) · [Selected projects](#selected-projects) · [Computational workflow](#computational-workflow) · [Reproducibility](#reproducibility-and-validation) · [Methods and tools](#methods-and-tools) · [Development priorities](#development-priorities) · [Contact](#contact)
 
 ---
 
-## 🔬 Research Dashboard
+## Research profile
+
+I am an M.Sc. Chemistry student at Jamia Millia Islamia interested in the use of computation and scientific programming to investigate chemical systems and make analysis workflows more reproducible.
+
+My interests include molecular structure and conformational analysis, electronic-structure calculations, spectroscopy, asymmetric catalysis, and scientific software. I work on tools that connect chemical questions with inspectable computational steps, structured outputs, and analysis that can be revisited by another researcher.
+
+<img src="./assets/orbit-panel.svg" width="100%" alt="Scientific orbital-inspired visual panel" />
+
+> **Scope note:** Research interests, software capabilities, and validated scientific findings are different things. Project descriptions below identify the purpose of each repository; method-specific claims and results should be assessed from that project's documentation and data.
+
+## Research questions
+
+| Area | Questions and computational interests |
+|:--|:--|
+| **Molecular modelling** | How do conformational preferences and molecular structure affect computed properties? |
+| **Electronic structure** | How should a computational protocol be selected, documented, and checked for a particular chemical question? |
+| **Spectral analysis** | How can signals be processed, peaks characterized, and figures generated without losing traceability to the input data? |
+| **Asymmetric catalysis and nonlinear effects** | How can conformer ensembles and thermodynamic models support exploratory analysis of nonlinear effects? |
+| **Scientific software** | How can computational steps, parameters, intermediate files, and final outputs be made easier to inspect and reproduce? |
+
+These are areas of interest, not a claim that every question has already been answered or experimentally validated.
+
+---
+
+## Selected projects
+
+The projects below represent different parts of my work: computational workflow orchestration, scientific data analysis, chemical drawing, and a documented learning series.
 
 <table>
-<tr>
-<td width="64%" valign="top">
-
-### Focus Areas
-
-- **Carbon quantum dots (CQDs):** synthesis-to-property understanding for functional materials
-- **Computational chemistry:** xTB/CREST pre-screening with ORCA/DFT refinement
-- **Spectroscopy + catalysis:** mechanism-aware interpretation and reproducible analysis
-- **Scientific software:** Python + Linux workflows for transparent research pipelines
-
-> Building practical, reproducible chemistry workflows where notebooks, scripts, and data can be audited and reused.
-
-</td>
-<td width="36%" valign="top" align="center">
-
-<img src="./assets/orbit-panel.svg" width="100%" alt="Animated orbital and status panel" />
-
-</td>
-</tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/asifverse4/ASIF_iAKv2026">ASIF_iAKv2026</a></h3>
+      <p><strong>Computational workflow orchestration</strong></p>
+      <p>A workflow-oriented project for molecular and supramolecular systems, organized around structure preparation, conformer exploration with xTB/CREST, and subsequent quantum-chemical calculations with ORCA where appropriate.</p>
+      <p><code>xTB</code> · <code>CREST</code> · <code>ORCA</code></p>
+      <p><a href="https://github.com/asifverse4/ASIF_iAKv2026">Repository and documentation ↗</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/asifverse4/Automated-Non-Linear-Effect-NLE-Predictors">NLE Predictors</a></h3>
+      <p><strong>Exploratory computational screening</strong></p>
+      <p>A project investigating nonlinear effects in asymmetric catalysis using conformational sampling, xTB/CREST, ORCA/DFT, and Kagan ML2 thermodynamic modelling.</p>
+      <p><code>PYTHON</code> · <code>CONFORMER ENSEMBLES</code> · <code>THERMODYNAMIC MODELLING</code></p>
+      <p><a href="https://github.com/asifverse4/Automated-Non-Linear-Effect-NLE-Predictors">Repository, tests and documentation ↗</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/asifverse4/LabScribber">LabScribber</a></h3>
+      <p><strong>Spectral and scientific data analysis</strong></p>
+      <p>A Python-based scientific analysis platform for spectrum processing, peak detection and fitting, multivariate analysis, and figure/report generation.</p>
+      <p><code>PYTHON</code> · <code>SPECTRAL ANALYSIS</code> · <code>VISUALIZATION</code></p>
+      <p><a href="https://github.com/asifverse4/LabScribber">Repository and usage notes ↗</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/asifverse4/HasimDraw-PRO">HasimDraw-PRO</a></h3>
+      <p><strong>Chemical drawing and molecular workflows</strong></p>
+      <p>An offline-oriented chemical drawing and computational chemistry workstation project, with a focus on molecular structures, conformer workflows, and local cheminformatics tooling.</p>
+      <p><code>TYPESCRIPT</code> · <code>RDKit</code> · <code>MOLECULAR MODELLING</code></p>
+      <p><a href="https://asifverse4.github.io/HasimDraw-PRO/">Project site ↗</a> · <a href="https://github.com/asifverse4/HasimDraw-PRO">Source code ↗</a></p>
+    </td>
+  </tr>
 </table>
+
+<details>
+  <summary><strong>Learning series — 100 Days of Computational Chemistry</strong></summary>
+  <br />
+  A structured Python learning series covering computational chemistry, molecular modelling, data analysis, and scientific programming through practical, documented exercises.
+
+  [Explore the repository, day-by-day material, and roadmap ↗](https://github.com/asifverse4/100-days-of-computational-chemistry)
+</details>
 
 ---
 
-## 🧪 Workflow Map
+## Computational workflow
+
+The diagram below is a **protocol template**, not a universal recipe. The appropriate method and sequence depend on the molecular system, the target observable, and the accuracy required.
 
 <div align="center">
-  <img src="./assets/research-loop.svg" width="100%" alt="Animated computational chemistry research loop" />
+  <img src="./assets/research-loop.svg" width="100%" alt="Illustrated computational chemistry research workflow" />
 </div>
 
 ```mermaid
-flowchart LR
-    A[Hypothesis & target system] --> B[xTB / CREST conformer search]
-    B --> C[ORCA / DFT refinement]
-    C --> D[Spectroscopy & property analysis]
-    D --> E[Python processing + visualization]
-    E --> F[Versioned reports & reproducible artifacts]
-    F --> A
+flowchart TD
+    A[Define chemical question and target observable] --> B[Prepare and inspect molecular structure]
+    B --> C[Record charge, multiplicity and input assumptions]
+    C --> D[Conformer search or pre-screening, where suitable]
+    D --> E[Inspect sampling, structures and convergence]
+    E --> F[Choose and document electronic-structure method]
+    F --> G[Compute the target property]
+    G --> H[Analyze data, units and uncertainty]
+    H --> I{Validation and sensitivity checks adequate?}
+    I -- No --> J[Review sampling, settings or model assumptions]
+    J --> D
+    I -- Yes --> K[Archive inputs, outputs, versions and analysis]
 ```
 
 <details>
-<summary><strong>Pipeline notes (click to expand)</strong></summary>
+  <summary><strong>Protocol details worth recording</strong></summary>
+  <br />
 
-- **Sampling first:** fast pre-screening reduces expensive DFT cycles.
-- **Refine intentionally:** higher-level methods only for meaningful candidate sets.
-- **Track provenance:** input, method level, and output are versioned together.
-- **Keep it reusable:** scripts are designed for reruns and adaptation.
+  - **System definition:** structure source, protonation/tautomer choice where relevant, charge, multiplicity, and atom mapping.
+  - **Sampling:** software and version, search settings, constraints, duplicate handling, and how representative structures were selected.
+  - **Electronic structure:** method/functional, basis set, dispersion treatment, solvent model, integration settings, convergence criteria, and relevant software version.
+  - **Thermochemistry:** temperature, standard state, energy corrections, and units used in any free-energy comparison.
+  - **Property calculation:** specify the observable and its computational settings; a geometry optimization alone does not establish a spectroscopic assignment or a mechanistic conclusion.
+  - **Analysis:** state how structures or conformers were weighted, how values were compared, and how uncertainty or sensitivity was assessed.
+  - **Provenance:** retain input files, logs, intermediate structures, scripts, environment information, and generated figures/tables.
 
 </details>
 
 ---
 
-## 🧰 Featured Work
+## Reproducibility and validation
 
-<table>
-<tr>
-<td width="50%" valign="top">
+A computational result is only interpretable in the context of the model and settings that produced it. For projects that generate scientific results, I aim to make the following inspectable:
 
-### ⚗️ [HASIM](https://github.com/asifverse4)
+| Record | Why it matters |
+|:--|:--|
+| Input structures and parameters | Establishes what was actually calculated |
+| Software versions and environment | Helps identify implementation and compatibility differences |
+| Method and convergence settings | Makes the approximation and numerical criteria explicit |
+| Intermediate and final outputs | Allows the workflow to be traced and failures diagnosed |
+| Analysis scripts, units and plots | Makes transformations from raw output to reported result reviewable |
+| Benchmarks, controls or reference data, where available | Helps assess whether the result is plausible for the intended use |
 
-Computational chemistry direction under active development around reproducible simulation workflows and scientific automation.
-
-</td>
-<td width="50%" valign="top">
-
-### 🧫 [LabScribber](https://github.com/asifverse4/LabScribber)
-
-Lab-oriented tooling and notes to make experiments, observations, and analysis easier to organize and revisit.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🔭 CQD/DFT Study Stack
-
-Current stack direction: **xTB/CREST → ORCA/DFT → spectroscopy interpretation → reproducible outputs**.
-
-</td>
-<td width="50%" valign="top">
-
-### 🧱 Open Build Philosophy
-
-Readable scripts, explicit assumptions, and incremental improvements over opaque one-off runs.
-
-</td>
-</tr>
-</table>
-
-> Publication and manuscript-ready outputs are a target direction; roadmap items below are listed as ongoing goals.
+Predictions are not experimental observations. Automated workflows can improve consistency, but they do not replace chemical judgement, method validation, or experimental confirmation where that is required.
 
 ---
 
-## ⚙️ Toolchain
+## Methods and tools
 
-<div align="center">
+| Use | Tools / methods |
+|:--|:--|
+| Scientific programming | Python; data processing and plotting libraries as required by each project |
+| Molecular informatics | RDKit and related molecular representation tools |
+| Conformational exploration | xTB and CREST, where appropriate to the system and question |
+| Electronic structure | ORCA and DFT methods, with protocol choices documented per calculation |
+| Application development | TypeScript and browser-based tooling in HasimDraw-PRO |
+| Reproducible development | Git, Linux-oriented workflows, documented environments and tests where available |
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=FCC624)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![ORCA](https://img.shields.io/badge/ORCA-0f172a?style=flat-square&logo=atom&logoColor=22d3ee)
-![xTB](https://img.shields.io/badge/xTB-1f2937?style=flat-square&logo=dependabot&logoColor=a78bfa)
-![CREST](https://img.shields.io/badge/CREST-111827?style=flat-square&logo=databricks&logoColor=22d3ee)
-
-<img src="https://skillicons.dev/icons?i=python,bash,linux,git,github,vscode,markdown&perline=7" alt="Tool icons" />
-
-</div>
+No single repository necessarily uses every tool listed here. See the individual project README for its actual dependencies, setup instructions, supported workflows, and limitations.
 
 ---
 
-## 🛰️ Live Stats
+## Development priorities
 
-<div align="center">
-  <a href="https://github.com/asifverse4">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=asifverse4&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
-  </a>
-  <a href="https://github.com/asifverse4">
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=asifverse4&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-  </a>
-  <br/>
-  <a href="https://github.com/asifverse4">
-    <img src="https://streak-stats.demolab.com?user=asifverse4&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-  </a>
-</div>
+- [ ] Add end-to-end examples with input files, commands, expected outputs, and environment details.
+- [ ] Document the assumptions and limits of representative computational protocols.
+- [ ] Expand regression tests and small reference fixtures where scientifically appropriate.
+- [ ] Make data-to-figure transformations traceable in analysis projects.
+- [ ] Improve installation, dependency, and troubleshooting guidance across repositories.
+
+This is a forward-looking list; unchecked items are goals, not completed capabilities.
 
 ---
 
-## 🗺️ Roadmap
+## Contact
 
-- [x] Establish a chemistry-computation profile architecture
-- [x] Build reusable animated scientific visuals in SVG
-- [ ] Expand reproducible examples for DFT and spectroscopy workflows
-- [ ] Add more openly documented computational notebooks
-- [ ] Package repeatable automation for data-to-report pipelines
-- [ ] Grow collaboration-ready project documentation
+For discussion of computational chemistry, molecular modelling, scientific Python, or research software:
 
----
-
-## 🐍 Contribution Signal
+- **GitHub:** [@asifverse4](https://github.com/asifverse4)
+- **ORCID:** [0009-0000-3850-4907](https://orcid.org/0009-0000-3850-4907)
+- **LinkedIn:** [Asif Raza](https://www.linkedin.com/in/asif-razaa-543b663b4/)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/asifverse4/asifverse4/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake animation" />
-</div>
-
----
-
-## 🤝 Connect
-
-<div align="center">
-  <a href="https://github.com/asifverse4"><img src="https://img.shields.io/badge/GitHub-asifverse4-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
-  <a href="https://orcid.org/0009-0000-3850-4907"><img src="https://img.shields.io/badge/ORCID-0009--0000--3850--4907-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID profile" /></a>
-  <a href="https://www.linkedin.com/in/asif-razaa-543b663b4/"><img src="https://img.shields.io/badge/LinkedIn-Asif%20Raza-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>
-</div>
-
-<div align="center">
-  <sub>Designed for GitHub profile rendering with lightweight SVG animation and reproducible content links.</sub>
+  <br />
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:397C85,50:79D9D0,100:4A9BC6&section=footer" width="100%" alt="" />
+  <sub>CHEMISTRY · COMPUTATION · REPRODUCIBLE SCIENCE</sub>
 </div>
